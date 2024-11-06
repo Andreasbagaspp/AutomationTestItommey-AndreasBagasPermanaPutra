@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="regresi" time="73.752" tests="4" failures="1" errors="0">
+   <testsuite name="regresi" tests="4" failures="1" errors="0" time="73.752" skipped="0" timestamp="06-11-2024T20:50:35" hostname="User - ROG-AndreasBagasPermanaPutra" id="Test Suites/regresi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\AutomationTestItommey-AndreasBagasPermanaPutra\\Reports\\20241106_205028\\regresi\\20241106_205028"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\AutomationTestItommey-AndreasBagasPermanaPutra\\Reports\\20241106_205028\\regresi\\20241106_205028\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\AutomationTestItommey-AndreasBagasPermanaPutra\\Reports\\20241106_205028\\regresi\\20241106_205028\\1730901109026.png"/>
+         <property name="hostName" value="User - ROG-AndreasBagasPermanaPutra"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.3.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.141"/>
+         <property name="sessionId" value="3a50a3b27187d10cb01c990eb46a6bc6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/Negative/Login with invalid password" time="13.135" classname="Test Cases/Login/Negative/Login with invalid password" status="PASSED">
+         <system-out><![CDATA[06-11-2024T20:50:35 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Login with invalid password: Test Cases/Login/Negative/Login with invalid password
+
+06-11-2024T20:50:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-11-2024T20:50:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2024T20:50:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2024T20:50:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2024T20:50:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-11-2024T20:50:40 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2024T20:50:40 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-11-2024T20:50:44 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-11-2024T20:50:44 - [TEST_STEP][PASSED] - click(findTestObject("btn_makeappointment")): Object: 'Object Repository/btn_makeappointment' is clicked on
+
+06-11-2024T20:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_makeappointment' is clicked on
+
+06-11-2024T20:50:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/login_header")): Object 'Object Repository/Login/login_header' is visible
+
+06-11-2024T20:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_header' is visible
+
+06-11-2024T20:50:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login/textbox_username"), "John Lennon"): Text 'John Lennon' is set on object 'Object Repository/Login/textbox_username'
+
+06-11-2024T20:50:46 - [MESSAGE][PASSED] - Text 'John Lennon' is set on object 'Object Repository/Login/textbox_username'
+
+06-11-2024T20:50:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login/textbox_pwd"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/textbox_pwd'
+
+06-11-2024T20:50:47 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/textbox_pwd'
+
+06-11-2024T20:50:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login/btn_login")): Object 'Object Repository/Login/btn_login' is clickable
+
+06-11-2024T20:50:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/btn_login' is clickable
+
+06-11-2024T20:50:47 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_login")): Object: 'Object Repository/Login/btn_login' is clicked on
+
+06-11-2024T20:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_login' is clicked on
+
+06-11-2024T20:50:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/alert_failedlogin")): Object 'Object Repository/Login/alert_failedlogin' is visible
+
+06-11-2024T20:50:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/alert_failedlogin' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Login with invalid username" time="9.032" classname="Test Cases/Login/Negative/Login with invalid username" status="PASSED">
+         <system-out><![CDATA[06-11-2024T20:50:48 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Login with invalid username: Test Cases/Login/Negative/Login with invalid username
+
+06-11-2024T20:50:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-11-2024T20:50:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-11-2024T20:50:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2024T20:50:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2024T20:50:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2024T20:50:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-11-2024T20:50:50 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2024T20:50:50 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-11-2024T20:50:53 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-11-2024T20:50:53 - [TEST_STEP][PASSED] - click(findTestObject("btn_makeappointment")): Object: 'Object Repository/btn_makeappointment' is clicked on
+
+06-11-2024T20:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_makeappointment' is clicked on
+
+06-11-2024T20:50:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/login_header")): Object 'Object Repository/Login/login_header' is visible
+
+06-11-2024T20:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_header' is visible
+
+06-11-2024T20:50:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/textbox_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/textbox_username'
+
+06-11-2024T20:50:55 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/textbox_username'
+
+06-11-2024T20:50:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/textbox_pwd"), "password salah"): Text 'password salah' is set on object 'Object Repository/Login/textbox_pwd'
+
+06-11-2024T20:50:56 - [MESSAGE][PASSED] - Text 'password salah' is set on object 'Object Repository/Login/textbox_pwd'
+
+06-11-2024T20:50:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login/btn_login")): Object 'Object Repository/Login/btn_login' is clickable
+
+06-11-2024T20:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/btn_login' is clickable
+
+06-11-2024T20:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_login")): Object: 'Object Repository/Login/btn_login' is clicked on
+
+06-11-2024T20:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_login' is clicked on
+
+06-11-2024T20:50:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/alert_failedlogin")): Object 'Object Repository/Login/alert_failedlogin' is visible
+
+06-11-2024T20:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/alert_failedlogin' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Positive/Login with valid data" time="9.57" classname="Test Cases/Login/Positive/Login with valid data" status="PASSED">
+         <system-out><![CDATA[06-11-2024T20:50:57 - [TEST_CASE][PASSED] - Test Cases/Login/Positive/Login with valid data: Test Cases/Login/Positive/Login with valid data
+
+06-11-2024T20:50:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-11-2024T20:50:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-11-2024T20:50:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2024T20:50:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2024T20:50:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2024T20:50:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-11-2024T20:50:59 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2024T20:50:59 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-11-2024T20:51:02 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-11-2024T20:51:02 - [TEST_STEP][PASSED] - click(findTestObject("btn_makeappointment")): Object: 'Object Repository/btn_makeappointment' is clicked on
+
+06-11-2024T20:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_makeappointment' is clicked on
+
+06-11-2024T20:51:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/login_header")): Object 'Object Repository/Login/login_header' is visible
+
+06-11-2024T20:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_header' is visible
+
+06-11-2024T20:51:03 - [TEST_STEP][PASSED] - setText(findTestObject("Login/textbox_username"), findTestData("Login").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login/textbox_username'
+
+06-11-2024T20:51:05 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/textbox_username'
+
+06-11-2024T20:51:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login/textbox_pwd"), findTestData("Login").getValue(2, 1)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/textbox_pwd'
+
+06-11-2024T20:51:05 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/textbox_pwd'
+
+06-11-2024T20:51:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login/btn_login")): Object 'Object Repository/Login/btn_login' is clickable
+
+06-11-2024T20:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/btn_login' is clickable
+
+06-11-2024T20:51:06 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_login")): Object: 'Object Repository/Login/btn_login' is clicked on
+
+06-11-2024T20:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_login' is clicked on
+
+06-11-2024T20:51:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("make_appointment_page/header_makeappointment")): Object 'Object Repository/make_appointment_page/header_makeappointment' is visible
+
+06-11-2024T20:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/make_appointment_page/header_makeappointment' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make_appointment/Make Appointment" time="41.597" classname="Test Cases/Make_appointment/Make Appointment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Make_appointment/Make Appointment FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/make_appointment_page/field_date'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Make Appointment.run(Make Appointment:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1730901028947.run(TempTestSuite1730901028947.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/make_appointment_page/field_date' located by '/html/body/div[5]/div[1]/table/tbody/tr[3]/td[5]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[06-11-2024T20:51:07 - [TEST_CASE][FAILED] - Test Cases/Make_appointment/Make Appointment: Test Cases/Make_appointment/Make Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/make_appointment_page/field_date'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Make Appointment.run(Make Appointment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730901028947.run(TempTestSuite1730901028947.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/make_appointment_page/field_date' located by '/html/body/div[5]/div[1]/table/tbody/tr[3]/td[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+06-11-2024T20:51:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Positive/Login with valid data"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Positive/Login with valid data' successfully
+
+06-11-2024T20:51:07 - [TEST_CASE][PASSED] - Test Cases/Login/Positive/Login with valid data: Test Cases/Login/Positive/Login with valid data
+
+06-11-2024T20:51:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-11-2024T20:51:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-11-2024T20:51:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2024T20:51:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2024T20:51:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2024T20:51:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-11-2024T20:51:09 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2024T20:51:09 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-11-2024T20:51:12 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-11-2024T20:51:12 - [TEST_STEP][PASSED] - click(findTestObject("btn_makeappointment")): Object: 'Object Repository/btn_makeappointment' is clicked on
+
+06-11-2024T20:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_makeappointment' is clicked on
+
+06-11-2024T20:51:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/login_header")): Object 'Object Repository/Login/login_header' is visible
+
+06-11-2024T20:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_header' is visible
+
+06-11-2024T20:51:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login/textbox_username"), findTestData("Login").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login/textbox_username'
+
+06-11-2024T20:51:14 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/textbox_username'
+
+06-11-2024T20:51:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/textbox_pwd"), findTestData("Login").getValue(2, 1)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/textbox_pwd'
+
+06-11-2024T20:51:14 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/textbox_pwd'
+
+06-11-2024T20:51:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login/btn_login")): Object 'Object Repository/Login/btn_login' is clickable
+
+06-11-2024T20:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/btn_login' is clickable
+
+06-11-2024T20:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_login")): Object: 'Object Repository/Login/btn_login' is clicked on
+
+06-11-2024T20:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_login' is clicked on
+
+06-11-2024T20:51:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("make_appointment_page/header_makeappointment")): Object 'Object Repository/make_appointment_page/header_makeappointment' is visible
+
+06-11-2024T20:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/make_appointment_page/header_makeappointment' is visible
+
+06-11-2024T20:51:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Positive/Login with valid data' successfully
+
+06-11-2024T20:51:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("make_appointment_page/checkbox_applyforhospital")): Object 'Object Repository/make_appointment_page/checkbox_applyforhospital' is visible
+
+06-11-2024T20:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/make_appointment_page/checkbox_applyforhospital' is visible
+
+06-11-2024T20:51:16 - [TEST_STEP][PASSED] - click(findTestObject("make_appointment_page/checkbox_applyforhospital")): Object: 'Object Repository/make_appointment_page/checkbox_applyforhospital' is clicked on
+
+06-11-2024T20:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/make_appointment_page/checkbox_applyforhospital' is clicked on
+
+06-11-2024T20:51:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("make_appointment_page/dropdown_date")): Object 'Object Repository/make_appointment_page/dropdown_date' is visible
+
+06-11-2024T20:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/make_appointment_page/dropdown_date' is visible
+
+06-11-2024T20:51:17 - [TEST_STEP][PASSED] - click(findTestObject("make_appointment_page/dropdown_date")): Object: 'Object Repository/make_appointment_page/dropdown_date' is clicked on
+
+06-11-2024T20:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/make_appointment_page/dropdown_date' is clicked on
+
+06-11-2024T20:51:17 - [TEST_STEP][FAILED] - click(findTestObject("make_appointment_page/field_date")): Unable to click on object 'Object Repository/make_appointment_page/field_date' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/make_appointment_page/field_date'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Make Appointment.run(Make Appointment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730901028947.run(TempTestSuite1730901028947.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/make_appointment_page/field_date' located by '/html/body/div[5]/div[1]/table/tbody/tr[3]/td[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1730900197425.run(Script1730900197425.groovy:30)
+	... 15 more
+)
+
+06-11-2024T20:51:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[5]/div[1]/table/tbody/tr[3]/td[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-11-2024T20:51:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/make_appointment_page/field_date' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/make_appointment_page/field_date'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Make Appointment.run(Make Appointment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730901028947.run(TempTestSuite1730901028947.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/make_appointment_page/field_date' located by '/html/body/div[5]/div[1]/table/tbody/tr[3]/td[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1730900197425.run(Script1730900197425.groovy:30)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\User\\git\\AutomationTestItommey-AndreasBagasPermanaPutra\\Reports\\20241106_205028\\regresi\\20241106_205028\\1730901109026.png]]]]></system-out>
+         <system-err><![CDATA[06-11-2024T20:51:07 - [TEST_CASE][FAILED] - Test Cases/Make_appointment/Make Appointment: Test Cases/Make_appointment/Make Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/make_appointment_page/field_date'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Make Appointment.run(Make Appointment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730901028947.run(TempTestSuite1730901028947.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/make_appointment_page/field_date' located by '/html/body/div[5]/div[1]/table/tbody/tr[3]/td[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-11-2024T20:50:35 - [TEST_SUITE][FAILED] - regresi: Test Cases/Make_appointment/Make Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/make_appointment_page/field_date'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Make Appointment.run(Make Appointment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730901028947.run(TempTestSuite1730901028947.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/make_appointment_page/field_date' located by '/html/body/div[5]/div[1]/table/tbody/tr[3]/td[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[06-11-2024T20:50:35 - [TEST_SUITE][FAILED] - regresi: Test Cases/Make_appointment/Make Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/make_appointment_page/field_date'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Make Appointment.run(Make Appointment:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730901028947.run(TempTestSuite1730901028947.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/make_appointment_page/field_date' located by '/html/body/div[5]/div[1]/table/tbody/tr[3]/td[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1423)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

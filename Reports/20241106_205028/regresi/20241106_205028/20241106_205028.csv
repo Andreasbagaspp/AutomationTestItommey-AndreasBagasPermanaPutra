@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+regresi,Chrome 130.0.0.0,,,06-11-2024 20:50:35,06-11-2024 20:51:49,"1m - 13,752s",FAILED
+,,,,,,,
+Test Cases/Login/Negative/Login with invalid password,Chrome 130.0.0.0,,,06-11-2024 20:50:35,06-11-2024 20:50:48,"13,135s",PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,06-11-2024 20:50:36,06-11-2024 20:50:40,"4,077s",PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,06-11-2024 20:50:40,06-11-2024 20:50:40,"0,251s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 130.0.0.0,,,06-11-2024 20:50:40,06-11-2024 20:50:44,"3,425s",PASSED
+"click(findTestObject(""btn_makeappointment""))",Chrome 130.0.0.0,,,06-11-2024 20:50:44,06-11-2024 20:50:45,"1,030s",PASSED
+"verifyElementVisible(findTestObject(""Login/login_header""))",Chrome 130.0.0.0,,,06-11-2024 20:50:45,06-11-2024 20:50:45,"0,457s",PASSED
+"setText(findTestObject(""Login/textbox_username""), ""John Lennon"")",Chrome 130.0.0.0,,,06-11-2024 20:50:45,06-11-2024 20:50:46,"0,803s",PASSED
+"setText(findTestObject(""Login/textbox_pwd""), ""ThisIsNotAPassword"")",Chrome 130.0.0.0,,,06-11-2024 20:50:46,06-11-2024 20:50:47,"0,878s",PASSED
+"verifyElementClickable(findTestObject(""Login/btn_login""))",Chrome 130.0.0.0,,,06-11-2024 20:50:47,06-11-2024 20:50:47,"0,342s",PASSED
+"click(findTestObject(""Login/btn_login""))",Chrome 130.0.0.0,,,06-11-2024 20:50:47,06-11-2024 20:50:48,"1,035s",PASSED
+"verifyElementVisible(findTestObject(""Login/alert_failedlogin""))",Chrome 130.0.0.0,,,06-11-2024 20:50:48,06-11-2024 20:50:48,"0,334s",PASSED
+,,,,,,,
+Test Cases/Login/Negative/Login with invalid username,Chrome 130.0.0.0,,,06-11-2024 20:50:48,06-11-2024 20:50:57,"9,032s",PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,06-11-2024 20:50:49,06-11-2024 20:50:50,"1,527s",PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,06-11-2024 20:50:50,06-11-2024 20:50:50,"0,124s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 130.0.0.0,,,06-11-2024 20:50:50,06-11-2024 20:50:53,"2,961s",PASSED
+"click(findTestObject(""btn_makeappointment""))",Chrome 130.0.0.0,,,06-11-2024 20:50:53,06-11-2024 20:50:54,"0,788s",PASSED
+"verifyElementVisible(findTestObject(""Login/login_header""))",Chrome 130.0.0.0,,,06-11-2024 20:50:54,06-11-2024 20:50:54,"0,375s",PASSED
+"setText(findTestObject(""Login/textbox_username""), ""John Doe"")",Chrome 130.0.0.0,,,06-11-2024 20:50:54,06-11-2024 20:50:55,"0,732s",PASSED
+"setText(findTestObject(""Login/textbox_pwd""), ""password salah"")",Chrome 130.0.0.0,,,06-11-2024 20:50:55,06-11-2024 20:50:56,"0,787s",PASSED
+"verifyElementClickable(findTestObject(""Login/btn_login""))",Chrome 130.0.0.0,,,06-11-2024 20:50:56,06-11-2024 20:50:56,"0,335s",PASSED
+"click(findTestObject(""Login/btn_login""))",Chrome 130.0.0.0,,,06-11-2024 20:50:56,06-11-2024 20:50:57,"0,964s",PASSED
+"verifyElementVisible(findTestObject(""Login/alert_failedlogin""))",Chrome 130.0.0.0,,,06-11-2024 20:50:57,06-11-2024 20:50:57,"0,357s",PASSED
+,,,,,,,
+Test Cases/Login/Positive/Login with valid data,Chrome 130.0.0.0,,,06-11-2024 20:50:57,06-11-2024 20:51:07,"9,570s",PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,06-11-2024 20:50:58,06-11-2024 20:50:59,"1,344s",PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,06-11-2024 20:50:59,06-11-2024 20:50:59,"0,152s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 130.0.0.0,,,06-11-2024 20:50:59,06-11-2024 20:51:02,"2,833s",PASSED
+"click(findTestObject(""btn_makeappointment""))",Chrome 130.0.0.0,,,06-11-2024 20:51:02,06-11-2024 20:51:03,"0,825s",PASSED
+"verifyElementVisible(findTestObject(""Login/login_header""))",Chrome 130.0.0.0,,,06-11-2024 20:51:03,06-11-2024 20:51:03,"0,365s",PASSED
+"setText(findTestObject(""Login/textbox_username""), findTestData(""Login"").getValue(1, 1))",Chrome 130.0.0.0,,,06-11-2024 20:51:03,06-11-2024 20:51:05,"1,430s",PASSED
+"setText(findTestObject(""Login/textbox_pwd""), findTestData(""Login"").getValue(2, 1))",Chrome 130.0.0.0,,,06-11-2024 20:51:05,06-11-2024 20:51:05,"0,775s",PASSED
+"verifyElementClickable(findTestObject(""Login/btn_login""))",Chrome 130.0.0.0,,,06-11-2024 20:51:05,06-11-2024 20:51:06,"0,307s",PASSED
+"click(findTestObject(""Login/btn_login""))",Chrome 130.0.0.0,,,06-11-2024 20:51:06,06-11-2024 20:51:07,"1,025s",PASSED
+"verifyElementVisible(findTestObject(""make_appointment_page/header_makeappointment""))",Chrome 130.0.0.0,,,06-11-2024 20:51:07,06-11-2024 20:51:07,"0,368s",PASSED
+,,,,,,,
+Test Cases/Make_appointment/Make Appointment,Chrome 130.0.0.0,,,06-11-2024 20:51:07,06-11-2024 20:51:49,"41,597s",FAILED
+"callTestCase(findTestCase(""Login/Positive/Login with valid data""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,06-11-2024 20:51:07,06-11-2024 20:51:16,"8,836s",PASSED
+"verifyElementVisible(findTestObject(""make_appointment_page/checkbox_applyforhospital""))",Chrome 130.0.0.0,,,06-11-2024 20:51:16,06-11-2024 20:51:16,"0,332s",PASSED
+"click(findTestObject(""make_appointment_page/checkbox_applyforhospital""))",Chrome 130.0.0.0,,,06-11-2024 20:51:16,06-11-2024 20:51:17,"0,390s",PASSED
+"verifyElementVisible(findTestObject(""make_appointment_page/dropdown_date""))",Chrome 130.0.0.0,,,06-11-2024 20:51:17,06-11-2024 20:51:17,"0,339s",PASSED
+"click(findTestObject(""make_appointment_page/dropdown_date""))",Chrome 130.0.0.0,,,06-11-2024 20:51:17,06-11-2024 20:51:17,"0,356s",PASSED
+"click(findTestObject(""make_appointment_page/field_date""))",Chrome 130.0.0.0,,,06-11-2024 20:51:17,06-11-2024 20:51:49,"31,228s",FAILED

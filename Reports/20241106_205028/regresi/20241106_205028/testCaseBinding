@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Login/Negative/Login with invalid password","testCaseId":"Test Cases/Login/Negative/Login with invalid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Negative/Login with invalid username","testCaseId":"Test Cases/Login/Negative/Login with invalid username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Positive/Login with valid data","testCaseId":"Test Cases/Login/Positive/Login with valid data","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make_appointment/Make Appointment","testCaseId":"Test Cases/Make_appointment/Make Appointment","iterationVariableName":""}
