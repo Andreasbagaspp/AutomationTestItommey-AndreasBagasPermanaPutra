@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('btn_makeappointment'))
 
